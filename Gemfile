@@ -5,6 +5,8 @@ source "https://rails-assets.org" do
   gem "rails-assets-moment"
 end
 
+gem "therubyracer"
+gem "execjs"
 gem "bourbon"
 gem "middleman", "~>3.4.0"
 gem "middleman-dotenv", "~> 1.0"
