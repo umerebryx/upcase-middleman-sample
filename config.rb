@@ -5,6 +5,8 @@ end
 activate :directory_indexes
 page "/404.html", directory_index: false
 
+activate :sprockets
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
